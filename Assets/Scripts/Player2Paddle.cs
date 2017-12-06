@@ -13,20 +13,12 @@ public class Player2Paddle : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        //save the mouse position in Umity units 
-        //(depending on the number of units on screen)
-        float mousePosInUnits = (Input.mousePosition.y / Screen.width * 10f) - 7.5f;
+        float mousePosInUnits = (Input.mousePosition.y / Screen.height*10f) -5f;
+        Debug.Log(mousePosInUnits);
 
-        //creates a Vector3 which saves a coordinate
-        //in (x,y,z)
-        //this.transfrom.position.y: keeps the starting y-value
-        Vector3 paddlePosition = new Vector3(2f, this.transform.position.x, 0f);
+        Vector3 Player2Position = new Vector3(this.transform.position.x, 2f, 1f);
 
-        //make the paddle move with the mouse
-        paddlePosition.y = Mathf.Clamp(mousePosInUnits, 5f, -5f);
-        //paddlePosition.x = Mathf.Clamp(myBall.transform.position.x, -7.5f, 7.5f);
-        //Transform --> position, rotation or scale
-        //set the position of the paddle (this) to paddlePosition
-        this.transform.position = paddlePosition;
+        Player2Position.y = Mathf.Clamp(mousePosInUnits, -4.1f, 4.1f);
+        this.transform.position = Player2Position;
     }
 }

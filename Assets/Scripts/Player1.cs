@@ -10,7 +10,8 @@ public class LoseCollider : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         print("Player 1 scored ");
-        myLevelManager.LoadLevel("Win");
+        //if score == 3 && level 1 ...
+        myLevelManager.LoadLevel("Level2");
     }
 
     void OnTriggerEnter2D(Collider2D collision)
