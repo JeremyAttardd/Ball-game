@@ -705,6 +705,7 @@ GameObject:
   - component: {fileID: 863834009}
   - component: {fileID: 863834008}
   - component: {fileID: 863834007}
+  - component: {fileID: 863834010}
   m_Layer: 0
   m_Name: Wall 3
   m_TagString: Untagged
@@ -810,6 +811,18 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!114 &863834010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 863834005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28ccde29558e604eb841b6a492adb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointB: {x: 0, y: 0, z: 0}
 --- !u!1 &876144168
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,6 +834,7 @@ GameObject:
   - component: {fileID: 876144172}
   - component: {fileID: 876144171}
   - component: {fileID: 876144170}
+  - component: {fileID: 876144173}
   m_Layer: 0
   m_Name: Wall 1
   m_TagString: Untagged
@@ -926,6 +940,18 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!114 &876144173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876144168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28ccde29558e604eb841b6a492adb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointB: {x: 0, y: 0, z: 0}
 --- !u!1 &947475031
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,6 +1333,7 @@ GameObject:
   - component: {fileID: 1176629077}
   - component: {fileID: 1176629076}
   - component: {fileID: 1176629075}
+  - component: {fileID: 1176629078}
   m_Layer: 0
   m_Name: Wall 2
   m_TagString: Untagged
@@ -1412,6 +1439,18 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!114 &1176629078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1176629073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28ccde29558e604eb841b6a492adb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointB: {x: 0, y: 0, z: 0}
 --- !u!1 &1287820159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,6 +1462,7 @@ GameObject:
   - component: {fileID: 1287820163}
   - component: {fileID: 1287820162}
   - component: {fileID: 1287820161}
+  - component: {fileID: 1287820164}
   m_Layer: 0
   m_Name: Wall 4
   m_TagString: Untagged
@@ -1528,6 +1568,18 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!114 &1287820164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1287820159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28ccde29558e604eb841b6a492adb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointB: {x: 0, y: 0, z: 0}
 --- !u!1 &1354114461
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,6 +2202,7 @@ GameObject:
   - component: {fileID: 1815724735}
   - component: {fileID: 1815724734}
   - component: {fileID: 1815724733}
+  - component: {fileID: 1815724736}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -2255,6 +2308,18 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 0.41}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!114 &1815724736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815724731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f28ccde29558e604eb841b6a492adb2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointB: {x: 0, y: 0, z: 0}
 --- !u!1 &1906719648
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class P2ScoreLvl2 : MonoBehaviour {
 
         if (Scoree == 4)
         {
-            myLevelManager.LoadLevel("Level2");
+            myLevelManager.LoadLevel("Level3");
         }
         else
         {

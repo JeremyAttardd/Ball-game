@@ -13,7 +13,7 @@ public class P1ScoreLvl3 : MonoBehaviour {
 
         if (Scoree == 6)
         {
-            myLevelManager.LoadLevel("Level2");
+            myLevelManager.LoadLevel("End");
         }
         else
         {
