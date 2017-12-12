@@ -397,10 +397,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 346689491}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f81eb3bcc6a2a743bbf7446d3763b1e, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b1ddd8cb3f402241af96d334b81ad1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: {fileID: 0}
 --- !u!61 &346689493
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1086,7 +1085,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1073584373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3eea1511aa4e1dd4cb0f89bbd3b986b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 60751742fb7308747a297bd3edbbcd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1073584375

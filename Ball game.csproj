@@ -88,6 +88,10 @@
     <Compile Include="Assets\Scripts\Player1Score.cs" />
     <Compile Include="Assets\Scripts\Player2Paddle.cs" />
     <Compile Include="Assets\Scripts\Player2Score.cs" />
+    <Compile Include="Assets\Scripts\Scores\P1ScoreLvl2.cs" />
+    <Compile Include="Assets\Scripts\Scores\P1ScoreLvl3.cs" />
+    <Compile Include="Assets\Scripts\Scores\P2ScoreLvl2.cs" />
+    <Compile Include="Assets\Scripts\Scores\P2ScoreLvl3.cs" />
     <Compile Include="Assets\Scripts\TestCode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
