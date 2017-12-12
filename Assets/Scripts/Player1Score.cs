@@ -5,20 +5,23 @@ using UnityEngine.UI;
 
 public class Player1Score : MonoBehaviour {
 
-    public Text ScoreBoard;
-    int Score = 0;
+
+    public Text Score;
+    int Scoree;
     private LevelManager myLevelManager;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (Score == 2)
+        
+        if (Scoree == 2)
         {
             myLevelManager.LoadLevel("Level2");
         }
         else
         {
-            Score++;
+            Scoree += 1;
+            Score.text = "" + Scoree;
         }
 
     }
