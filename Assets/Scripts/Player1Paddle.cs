@@ -4,21 +4,38 @@ using UnityEngine;
 
 public class Player1Paddle : MonoBehaviour{
 
-    private float Speed;
-    private Rigidbody2D rb;
-    // Use this for initialization
-    void Start()
-    {
-        Speed = 5;
-        rb = this.GetComponent<Rigidbody2D>();
-    }
+    private float Speed = 10;
+    private float Length = 4.1f;
 
-    // Update is called once per frame
     void Update()
     {
-        float axisX = Input.GetAxis("Vertical");
-        float axisY = Input.GetAxis("Horizontal");
 
-        transform.Translate(new Vector2(axisY, axisX) * Time.deltaTime * Speed);
+        Vector3 position = this.transform.position;
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.position += Vector3.up * Speed * Time.deltaTime;
+            Mathf.Clamp(transform.position.y, -4.1f, 4.1f);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position += Vector3.down * Speed * Time.deltaTime;
+        }
+
+        var pos = transform.position;
+        if (pos.y > Length)
+        {
+            pos.y = Length;
+        }
+        if (pos.y < -Length)
+        {
+            pos.y = -Length;
+        }
+        transform.position = pos;
+
     }
+
+
+
+
+
 }
