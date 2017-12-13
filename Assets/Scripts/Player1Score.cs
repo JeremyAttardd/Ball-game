@@ -6,32 +6,27 @@ using UnityEngine.UI;
 public class Player1Score : MonoBehaviour {
 
 
-    public Text Score;
-    int Scoree;
+    public Text ScoreP1;
+    private int Score;
     private LevelManager myLevelManager;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
 
         
-        if (Scoree == 2)
+        if (Score == 2)
         {
             myLevelManager.LoadLevel("Level2");
         }
         else
         {
-            Scoree += 1;
-            Score.text = "" + Scoree;
+            Score += 1;
+            
         }
 
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        print(collision.gameObject.name);
-
-    }
-
+    
     // Use this for initialization
     void Start()
     {
@@ -44,5 +39,9 @@ public class Player1Score : MonoBehaviour {
     void Update()
     {
 
+        ScoreP1.text = Score.ToString();
+
     }
 }
+
+

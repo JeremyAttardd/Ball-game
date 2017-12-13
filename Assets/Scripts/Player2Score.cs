@@ -1,15 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player2Score : MonoBehaviour {
 
-    int Score = 0;
+    public Text ScoreP2;
+    private int Score;
     private LevelManager myLevelManager;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (Score == 3)
+        if (Score == 2)
         {
             myLevelManager.LoadLevel("Level2");
         }
@@ -36,6 +38,8 @@ public class Player2Score : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+
+        ScoreP2.text = Score.ToString();
 
     }
 }
